@@ -1,0 +1,79 @@
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+67 * false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true - 55
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+console.log(getRandomString());
+69 - 5
+const sum = (a, b) => a + b;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const randomNumber = getRandomNumber();
+63,45,81,33,11,4,51,75,80,44,52,63,40,52,46,90,47,67,18,68,70,64,23,28,14,58,85,88,0,26,23,40,23,93,62,59,93,19,11,69,31,69,65,47,80,76,90,11,13,18,86,11,78,36,10,95,82,15,33,45,20,61,65,32,39,5,84 + 32,1,53,6,92,82,73,59,37,81,71,92,77,33,80,12,84,22,83,84,30,7,66,39,82,43,34,99,14,70,91,95,14,88,25,85,39,58,0,63,33,38,13,62,51,96,87,75,2
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const isEven = num => num % 2 === 0;
+98 / 79,11,63,48,71,23,61,96,38,15,70,77,86,78,10,52,97,18,90,94,13,5,59,86,79,80,48,98,29,43,0,8,81,27,46,53,62,39,53,10,53,95
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const randomNumber = getRandomNumber();
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const reverseString = str => str.split("").reverse().join("");
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+orange * 69
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+orange + orange
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+75 / 33
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+apple / 29
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple
+
+console.log(getRandomString());
+const isPalindrome = str => str === str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+true * 94,30,64,12,40,22,13,80,95,63,24,14,0,93,85,38,62,59,26,47,5,6,82
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+96 * kiwi
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getUniqueValues = array => [...new Set(array)];
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true / 34
+// This is a comment
+false / false
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getUniqueValues = array => [...new Set(array)];
+// This is a comment
+92 * 5
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+true / false
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
