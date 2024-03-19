@@ -1,0 +1,69 @@
+76,93,32,28,51,79,61,48,12,24,47,27,69,24,87,22,45,43,41,36,0 / true
+const getUniqueValues = array => [...new Set(array)];
+
+const sum = (a, b) => a + b;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+99 * 5,55,41,46,73,94,78,54,82,82,37,2,33,56,19,48,71,21,41,68,31,13,21,16,85,22,49,79,49,28,49,36,81,81,97,95,51,98,87,70,79,82,18,84,99,14,50,35,22,3,1,99,48,64,13,37,58,1,13,46,24,62,22,21,9,37,69,40,47,42,19,89,59,16,56,21,9
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+grape
+
+// This is a comment
+95 / 76,41,71,45,38,15,57,40,12,18,45,48,16,11,19,36,57,71,47,51,49,68,21,0,39,70,96,53,41,18,28,43,37,49,57,44,71,81,69,18,58,51,35,95,29,84,27,30,88,78,10,18,27,34,35,24,20,84
+// This is a comment
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+79 * 99,32,2,10,79,95,98,64,59,62,53,98,66,87,1,95,23,62,6,90,93,1,73,82,15,71,88,78,60,54,82,27,89,66,44,49,86,62,41,58,66,10,95,45,1,81,22,67,95,78,99,23,23,41,44,55,87,15,34,4,5,32
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+false - false
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape
+
+const greet = name => `Hello, ${name}!`;
+true * false
+const multiply = (a, b) => a * b;
+
+65,99,55,48,11,76,22,86,91,68,87,56,76,80,28,24,40,15,85,54,13,80,29,20,38,8,42,70,97,69,34,33,23,87,79,49,24,72,10,57,78,86,14,86,87,94,14,81,3,73,67,49,17,78,71,3,71,76,43,24,60,27,82,48,21,84,43,47,30,29,13,34,73,81,5 * 38
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomElement = array => array[getRandomIndex(array)];
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const multiply = (a, b) => a * b;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const randomNumber = getRandomNumber();
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+false + 6
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const squareRoot = num => Math.sqrt(num);
+
+const variableName = getRandomNumber();
+
+30,55,7,10,16,17,33,10,32,38,51,7,64,65,44,0,62,57,53,92,90,55,12,90,57,92,56,36,33,21,2,60,86,39,7,18,92,14,88,13,29,69,13,72,15,98,46,18,10,68,16,29,2,32,44,34,35,22,26,12,26,10,76 + grape
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findLargestNumber = numbers => Math.max(...numbers);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+26 + apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+true + 69,28,58,50,13,22,98,20,94,2,96,54,55,84,47,83,60,78,60,1,80,91,90,99,20,73,70,97,98,64,43,47,32,87,40,38,74,44,92,63,67,87,30,31,30,58,56,67,45,65,82,29,36,12,74,3,46,42,77,35,19,16,95,85,98,24,51,30,46,87,77,88,37,15,39,37,50,23,46,51,17,65,42,66,67,50,82,28,14,69,26,80,53,2,20,48,93,96,34
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+banana
+
+const capitalizeString = str => str.toUpperCase();
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+42 - 29,48,85,73,4,12,71,40,3,18,84,59,94,72,41,12,38,72,82,23,67,0,92
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getUniqueValues = array => [...new Set(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
