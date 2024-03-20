@@ -1,0 +1,13 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+console.log(getRandomString());
+
+30,22,21,79,6,79,73,51,50,45,13,26,52,32,95,47,93,68,23 - grape
+// This is a comment
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+11,82,0 * false
+const isPalindrome = str => str === str.split("").reverse().join("");
+const reverseString = str => str.split("").reverse().join("");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+function addNumbers(a, b) { return a + b; }
+
